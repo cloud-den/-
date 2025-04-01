@@ -73,12 +73,25 @@ tr {
     background-color:#5175AD;
 }
 
-table {
-    margin: auto 70px;
-    border: 3px solid #2e4468;
+.table {
+    margin: auto;
+    border: 2px solid #2e4468;
+}
+
+.table td:nth-child(2) {
+    width: 550px;
+}
+
+.table td:nth-child(3) {
+    width: 100px;
+}
+
+.table td:nth-child(4) {
+    width: 100px;
 }
 
 td {
     color: #DAEAFF;
     border: 1px double #2e4468;
+    width: 150px;
 }
